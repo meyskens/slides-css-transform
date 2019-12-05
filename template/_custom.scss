@@ -1,0 +1,117 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.transform-1 h1 {
+    background-color: black;
+    color: white;
+    transform: rotate(3deg);
+}
+
+.transform-1 {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.transform-nr1:hover {
+    transform: translate(20px, -20px);
+}
+
+.transform-nr2:hover {
+    transform: scale(1.1, 0.6);
+}
+
+.transform-nr3:hover {
+    transform: rotate(45deg);
+}
+
+.transform-nr4:hover {
+    transform: skew(45deg, 20deg);
+}
+
+.transform-nr5:hover {
+    transform: rotate(20deg);
+    transform-origin: 0% 20%;
+}
+
+.transform-nr6:hover {
+    transform: rotate(290deg) scale(1.3) skew(45deg);
+}
+
+.voorbeelden-transform {
+    display: flex;
+    justify-content: space-around;
+}
+
+.voorbeelden-transform div{
+    background-color: lightblue;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    border: 5px solid black;
+}
+
+.translate20px {
+    transform:translate(40px, 40px);
+}
+
+.scale1106 {
+    transform: scale(1.1,0.6);
+}
+
+.scale11 {
+    transform: scale(1.1);
+}
+
+.rotate45 {
+    transform: rotate(45deg);
+}
+
+.rotatemin45 {
+    transform: rotate(-45deg);
+}
+
+.skew4520 {
+    transform: skew(45deg, 20deg);
+}
+
+.to020 {
+    transform-origin: 0% 20%;
+}
+
+.transin {
+    transition: background-color 500ms linear, transform 1s ease-in 500ms;
+}
+
+.transin:hover {
+    transform: rotate(-5deg) scale(1.5);
+    background-color: blue;
+}
+
+.trans2 {
+    transition: all 1s linear;
+}
+
+.trans2:hover {
+    border-radius: 50%;
+    border: 8px solid #009cab;
+    box-shadow: 3px 3px 6px #666;
+}
+
+.trans3 {
+    transition: all 1s steps(3);
+}
+
+.trans3:hover {
+    border-radius: 50%;
+    border: 8px solid #009cab;
+    box-shadow: 3px 3px 6px #666;
+}
